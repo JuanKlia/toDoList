@@ -28,7 +28,7 @@ function initFormComp() {
         <div class="container-form">
         <h1 class="form-title">Mis pendientes</h1>
 
-        <form class="form">
+        <form autocomplete="off" class="form">
           <div class="textfield-form">
             <label class="form-label" for="input">Nuevo pendiente</label>
             <input autocomplete="off" class="form-input" type="text" id="input" name="tarea" />
