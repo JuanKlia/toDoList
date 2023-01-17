@@ -31,7 +31,7 @@ function initFormComp() {
         <form class="form">
           <div class="textfield-form">
             <label class="form-label" for="input">Nuevo pendiente</label>
-            <input class="form-input" type="text" id="input" name="tarea" />
+            <input autocomplete="off" class="form-input" type="text" id="input" name="tarea" />
           </div>
           <button class="button-form">Agregar</button>
         </form>
